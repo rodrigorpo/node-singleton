@@ -20,13 +20,13 @@ export default class DatabaseProvider implements IConfig {
                 password: this.configProvider.get("DB_PASSWORD"),
                 database: this.configProvider.get("DB_DATABASE"),
                 schema: this.configProvider.get("DB_SCHEMA"),
-                entities: [__dirname + './src/modules/**/*.entity.ts'],
+                entities: ['src/modules/**/**/*.entity.ts'],
                 synchronize: this.configProvider.getBoolean("DB_SYNCHRONIZE"),
             })
         } catch (e) {
             throw e
         }
-        this.connection.connect
+        
         console.log(`Finalizing DatabaseProvider module in ${Date.now() - init}ms`)
     }
 }
