@@ -9,7 +9,7 @@ The pros/cons of which one that will be explained here
 - DI - async dependencies will be first instancied
 
 ## Pure injection
-![Image Pure Injection](http://url/to/img.png)
+![Image Pure Injection](https://github.com/rodrigorpo/node-singleton/blob/master/simple/node-singleton.jpg)
 
 ### Benefits
 - Lightweigth and faster
