@@ -1,6 +1,6 @@
-import IConfig from './config.interface'
-import Redis from 'ioredis'
-import { injectable } from 'inversify'
+import IConfig from '../interface/config.interface'
+import Redis from './node_modules/ioredis'
+import { injectable } from './node_modules/inversify'
 
 @injectable()
 export default class RedisProvider {

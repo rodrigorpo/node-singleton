@@ -1,4 +1,4 @@
-import RedisProvider from "src/configs/redis.provider";
+import RedisProvider from "src/configs/providers/redis.provider";
 import { injectable, inject } from "inversify";
 import Customer from "./customer.entity";
 
