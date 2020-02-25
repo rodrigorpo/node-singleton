@@ -1,7 +1,7 @@
 import IConfig from '../interface/config.interface'
 import { readFile } from 'fs'
 import { promisify } from 'util'
-import dotenv, { DotenvParseOutput } from 'dotenv'
+import dotenv from 'dotenv'
 
 const readFileS = promisify(readFile)
 
